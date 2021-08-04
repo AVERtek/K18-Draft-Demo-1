@@ -1,2 +1,2 @@
-# K18-Draft-Demo-1-
+# K18-Draft-Demo-1
 model version 1
