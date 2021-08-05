@@ -39,17 +39,17 @@
         {% endif %} 
         
      <section class="attribution">  
-       {% if site.logo1 %}
-        <p align"center">
-          <img src="{{site.logo1 | relative_url}}" alt="Logo" />
-        </p>
+       <div>
+        {% if site.logo1 %}
+          <img class="marginauto" src="{{site.logo1 | relative_url}}" alt="Logo" alt="centered image" />
         {% endif %}
-        
-        {% if site.logo2 %}
-        <p align="center">
-          <img src="{{site.logo2 | relative_url}}" alt="Logo" />
-        </p>
-        {% endif %} 
+          </div>
+          <style>
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
+</style>
       <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
   </script>
 
