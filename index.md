@@ -20,7 +20,7 @@
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
   
   
-  <script>
+  <!--<script>
       function Sync(selector, audioSelector) {
         var modelViewer = document.querySelector(selector);
         var sound = document.querySelector(audioSelector);
@@ -95,7 +95,7 @@ var getOutboundLink = function(url) {
     'event_callback': function(){document.location = url;}
   });
 }
-</script>
+</script>-->
 
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
