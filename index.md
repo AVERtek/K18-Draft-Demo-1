@@ -1,84 +1,6 @@
-# Explore a Human Hair Fiber <!-- Loads <model-viewer> for old browsers like IE11: -->
+<h2 style="text-align: center;" markdown="1">Explore a Human Hair Fiber</h2>
 <h2 style="text-align: center;" markdown="1"> Discover a 2nd Augmented Reality Experience!</h2> 
-<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-  </script>
 
-  <!-- The following libraries and polyfills are recommended to maximize browser support -->  
-  <!-- REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
-  <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-
-  <!-- OPTIONAL: Intersection Observer polyfill for better performance in Safari and IE11 -->
-  <script src="https://unpkg.com/intersection-observer/intersection-observer.js"></script>
-
-  <!-- OPTIONAL: Resize Observer polyfill improves resize behavior in non-Chrome browsers -->
-  <script src="https://unpkg.com/resize-observer-polyfill/dist/ResizeObserver.js"></script>
-
-  <!-- OPTIONAL: Fullscreen polyfill is required for experimental AR features in Canary -->
-  <!--<script src="https://unpkg.com/fullscreen-polyfill/dist/fullscreen.polyfill.js"></script>-->
-
-  <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
-  <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
-  
-  
-  <script>
-      function Sync(selector, audioSelector) {
-        var modelViewer = document.querySelector(selector);
-        var sound = document.querySelector(audioSelector);
-        var playRequest = document.querySelector("#overlay");
-
-   sound.addEventListener("timeupdate", () => {
-          modelViewer.currentTime = sound.currentTime;
-          console.log("modelViewer time: " + modelViewer.currentTime);
-        });
-
-   sound.addEventListener("pause", () => {
-          modelViewer.pause();
-        });
-
-   sound.addEventListener("play", () => {
-          modelViewer.play();
-
-   playRequest.classList.add("hide");
-        });
-
-   document.addEventListener("visibilitychange", () => {
-          if (document.visibilityState !== "visible") {
-            sound.pause();
-          }
-        });
-
-   var promise = sound.play();
-        if (promise !== undefined) {
-          promise
-            .then(_ => {
-              console.log("Autoplay has worked");
-              playRequest.classList.add("hide");
-            })
-            .catch(error => {
-              // Show a "Play" button so that user can start playback.
-              console.log("Autoplay has not worked");
-
-   // show the modal dialogue to play this
-   playRequest.classList.remove("hide");
-            });
-        }
-
-   }
-
-   function playNow() {
-        var playRequest = document.querySelector("#overlay");
-        playRequest.classList.add("hide");
-
-   var sound = document.querySelector("#sound");
-        sound.play();
-      }
-
-   function jumpTo(time) {
-        var sound = document.querySelector("#sound");
-        sound.currentTime = time;
-      }
-  
-   
 
 <script>
 /**
@@ -97,19 +19,10 @@ var getOutboundLink = function(url) {
 }
 </script>
 
-<!-- Loads <model-viewer> for modern browsers: -->
- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
-  </script>
-<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-
-<!-- Loads <model-viewer> for modern browsers: -->
- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
-  </script>
-<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 <h2 style="text-align: center;" markdown="1">BREADCRUMB #1</h2> 
 <h2 style="text-align: center;" markdown="1"><a href="https://www.AVERtek.net" onclick="getOutboundLink('https://www.AVERtek.net'); return false;"> BREADCRUMB #2</a></h2>
-## BREADCRUMB #3 **[REWARD HERE](https://avertek.net/special-bonus)**
+<h2 style="text-align: center;" markdown="1">BREADCRUMB #3<a href="https://avertek.net/special-bonus" onclick="getOutboundLink('https://avertek.net/special-bonus'); return false;"> [REWARD HERE]</a></h2>
+
 
 ---
 
