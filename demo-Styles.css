@@ -15,7 +15,7 @@ body {
   max-width: 600px;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 model-viewer {
@@ -28,6 +28,7 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
+  overflow: scroll;
  
 }
 
