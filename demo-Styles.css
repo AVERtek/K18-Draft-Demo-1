@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
   color: #244376;
-
+  overflow: scroll;
   
 }
 
@@ -45,7 +45,6 @@ model-viewer {
 .attribution .cc {
   flex-shrink: 0;
   text-decoration: none;
-  overflow: scroll;
 }
 
 footer {
