@@ -15,7 +15,7 @@ body {
   max-width: 600px;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 model-viewer {
@@ -86,4 +86,5 @@ footer {
   right:0;
   bottom:0;
   background-color:#00000099;
+  overflow: scroll;
 }
