@@ -28,7 +28,6 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
-  overflow: scroll;
  
 }
 
@@ -45,6 +44,7 @@ model-viewer {
 .attribution .cc {
   flex-shrink: 0;
   text-decoration: none;
+  overflow: scroll;
 }
 
 footer {
