@@ -28,7 +28,6 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
-  overflow: hidden;
  
 }
 
@@ -91,5 +90,5 @@ footer {
   right:0;
   bottom:0;
   background-color:#00000099;
-  overflow: hidden;
+  overflow: scroll;
 }
