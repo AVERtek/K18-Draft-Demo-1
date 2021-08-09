@@ -28,22 +28,27 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
+  overflow: scroll;
  
 }
 
 .attribution h1 {
   margin: 0 0 0.25em;
+  overflow: scroll;
  
 }
 
 .attribution img {
   opacity: 0.5;
   height: 2em;
+  overflow: scroll;
 }
 
 .attribution .cc {
   flex-shrink: 0;
   text-decoration: none;
+  overflow: scroll;
+  
 }
 
 footer {
@@ -86,5 +91,5 @@ footer {
   right:0;
   bottom:0;
   background-color:#00000099;
-  overflow: scroll;
+ 
 }
