@@ -84,23 +84,25 @@
             sound.pause();
           }
         });
+var promise = sound.play();
+        if (promise !== undefined) {
+          promise
+            .then(_ => {
+              console.log("Autoplay has worked");
+              playRequest.classList.add("hide");
+            })
+            .catch(error => {
+              // Show a "Play" button so that user can start playback.
+              console.log("Autoplay has not worked");
 
+   // show the modal dialogue to play this
+   playRequest.classList.remove("hide");
+            });
         }
 
    }
 
-   function playNow() {
-        var playRequest = document.querySelector("#overlay");
-        playRequest.classList.add("hide");
-
-   var sound = document.querySelector("#sound");
-        sound.play();
-      }
-
-   function jumpTo(time) {
-        var sound = document.querySelector("#sound");
-        sound.currentTime = time;
-      }
+  
    </script>
 
 
