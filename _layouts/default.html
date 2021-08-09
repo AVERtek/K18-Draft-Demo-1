@@ -100,9 +100,19 @@ var promise = sound.play();
             });
         }
 
-   }
+   }  
+      function playNow() {
+        var playRequest = document.querySelector("#overlay");
+        playRequest.classList.add("hide");
 
-  
+   var sound = document.querySelector("#sound");
+        sound.play();
+      }
+
+   function jumpTo(time) {
+        var sound = document.querySelector("#sound");
+        sound.currentTime = time;
+      }
    </script>
 
 
