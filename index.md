@@ -4,7 +4,7 @@
 <h2><b> "Experience "AR" Augmented Reality!" </b></h2> <!-- Loads <model-viewer> for old browsers like IE11: -->
 </div>
   <p align="center">
-  <img src="images/AR Instructions.png" width=750>
+  <img src="images/AR Instructions w.png" width=750>
   </p>
   <br><br>
 
