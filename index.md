@@ -25,9 +25,7 @@ var getOutboundLink = function(url) {
 }
 </script>
 
-<h2 style="text-align: center;" markdown="1">BREADCRUMB #1</h2> 
-<h2 style="text-align: center;" markdown="1"><a href="https://www.AVERtek.net" onclick="getOutboundLink('https://www.AVERtek.net'); return false;"> BREADCRUMB #2</a></h2>
-<h2 style="text-align: center;" markdown="1">BREADCRUMB #3<a href="https://avertek.net/special-bonus" onclick="getOutboundLink('https://avertek.net/special-bonus'); return false;"> [REWARD HERE]</a></h2>
+<h2 style="text-align: center;" markdown="1">DISCOVER THE SCIENCE<a href="https://www.k18hair.com/pages/our-science" onclick="getOutboundLink('https://www.k18hair.com/pages/our-science'); return false;"> [LEARN MORE]</a></h2>
 
 
 ---
