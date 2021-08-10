@@ -1,7 +1,8 @@
 #title: AVERtek # your name photo (or website title) here
 logo1: "images/aquis logo-K18 a400.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-
+  <h2 style="text-align: center;" markdown="1"><b>FOLLOW THE SCIENCE:</b><a href="https://www.k18hair.com/pages/our-science" onclick="getOutboundLink('https://www.k18hair.com/pages/our-science'); return false;"<b> LEARN MORE HERE</b></h2></a> 
+  <br><br>
 theme: jekyll-theme-minimal
 # Google Analytics
 google_analytics: UA-00000000-0 
