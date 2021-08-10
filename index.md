@@ -1,4 +1,4 @@
-<h1 style="text-align: center;" markdown="1">Explore Augmented Reality "AR" on Mobile</h1>
+<h1 style="text-align: center;" markdown="1">Explore Augmented Reality "AR" on Mobile Device</h1>
 
   <p align="center">
   <img src="images/AR Instructions w.png" width=750>
