@@ -25,7 +25,7 @@ var getOutboundLink = function(url) {
 }
 </script>
 
-<h2 style="text-align: center;" markdown="1">SPECIAL<a href="https://www.k18hair.com/pages/our-science" onclick="getOutboundLink('https://www.k18hair.com/pages/our-science'); return false;"> [REWARD]</a></h2>
+<h2 style="text-align: center;" markdown="1">EXCLUSIVE K18<a href="https://www.k18hair.com/pages/our-science" onclick="getOutboundLink('https://www.k18hair.com/pages/our-science'); return false;"> [REWARD]</a></h2>
 
 
 ---
