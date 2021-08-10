@@ -1,6 +1,12 @@
-<h2 style="text-align: center;" markdown="1">Explore a Human Hair Fiber</h2>
-<h2 style="text-align: center;" markdown="1"> Discover a 2nd Augmented Reality Experience!</h2> 
-
+<h1 style="text-align: center;" markdown="1">Explore a Human Hair Fiber</h1>
+<div align="center">
+  
+<h1><b> "Experience "AR" Augmented Reality!" </b></h1> <!-- Loads <model-viewer> for old browsers like IE11: -->
+</div>
+  <p align="center">
+  <img src="images/AR Instructions.png" width=750>
+  </p>
+  <br><br>
 
 <script>
 /**
