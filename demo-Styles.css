@@ -1,9 +1,10 @@
 body {
-  background-color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  position:absolute;
+  margin: 0;
+  padding: 0;
+  font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
+  color: #244376;
+  overflow-y: scroll;
 }
 
 
@@ -93,19 +94,3 @@ footer {
   overflow: scroll;
 }
 
-.scrolling-box {
-  background-color: #eaeaea;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
-  text-align: center;
-  width: 200px;
-}
-
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
