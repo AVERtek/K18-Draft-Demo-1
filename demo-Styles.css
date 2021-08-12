@@ -93,3 +93,20 @@ footer {
   background-color:#00000099;
   overflow: scroll;
 }
+
+.scrolling-box {
+  background-color: #eaeaea;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  text-align: center;
+  width: 200px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
