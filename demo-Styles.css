@@ -1,10 +1,9 @@
 body {
-  position:absolute;
-  margin: 0;
-  padding: 0;
-  font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
-  color: #244376;
-  overflow-y: scroll;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
