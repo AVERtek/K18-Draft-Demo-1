@@ -35,19 +35,20 @@ model-viewer {
 
 .attribution h1 {
   margin: 0 0 0.25em;
-  
+  overflow: auto;
  
 }
 
 .attribution img {
   opacity: 0.5;
   height: 2em;
-  
+  overflow: auto;
 }
 
 .attribution .cc {
   flex-shrink: 0;
   text-decoration: none;
+  overflow: auto;
   
   
 }
