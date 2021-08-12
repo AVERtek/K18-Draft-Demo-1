@@ -98,27 +98,6 @@ footer {
   overflow: auto;
 }
 
-body {
-  background-color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-nav {
-  background-color: #000;
-  display: block;
-  padding: 1em 0;
-  text-align: center;
-  width: 200px;
-}
-
-nav a {
-  color: #fff;
-  margin: 0 1em;
-  text-decoration: none;
-}
 
 .scrolling-box {
   background-color: #eaeaea;
