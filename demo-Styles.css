@@ -1,5 +1,5 @@
 body {
-  position:absolute;
+  position:relative;
   margin: 0;
   padding: 0;
   font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
@@ -85,7 +85,7 @@ footer {
 
 #overlay {
   position:relative;
-  z-index:1;
+  z-index:1000;
   top:0;
   left:0;
   right:0;
