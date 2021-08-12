@@ -1,10 +1,10 @@
 body {
-  position:relative;
+  position:absolute;
   margin: 0;
   padding: 0;
   font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
   color: #244376;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 
@@ -15,7 +15,7 @@ body {
   max-width: 600px;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-  overflow: scroll;
+  overflow: auto;
  
 }
 
@@ -29,6 +29,7 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
+  overflow: auto;
  
 }
 
@@ -84,13 +85,13 @@ footer {
 }
 
 #overlay {
-  position:relative;
+  position:absolute;
   z-index:1000;
   top:0;
   left:0;
   right:0;
   bottom:0;
   background-color:#00000099;
-  overflow: scroll;
+  overflow: auto;
 }
 
