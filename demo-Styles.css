@@ -41,7 +41,7 @@ model-viewer {
 }
 
 .attribution .cc {
-  flex-shrink: 1;
+  flex-shrink: 0;
   text-decoration: none;
 }
 
