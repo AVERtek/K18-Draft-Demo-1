@@ -4,7 +4,6 @@ body {
   padding: 0;
   font-family: Google Sans, Noto, Roboto, Helvetica Neue, sans-serif;
   color: #244376;
-  overflow: auto;
 }
 
 
@@ -15,14 +14,13 @@ body {
   max-width: 600px;
   border-radius: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-  overflow: auto;
+  overflow: hidden;
  
 }
 
 model-viewer {
   width: 100%;
   height: 400px;
-  overflow: auto;
 }
 
 .attribution {
@@ -30,28 +28,21 @@ model-viewer {
   flex-direction: row;
   justify-content: space-between;
   margin: 1em;
-  overflow: auto;
  
 }
 
 .attribution h1 {
   margin: 0 0 0.25em;
-  overflow: auto;
- 
 }
 
 .attribution img {
   opacity: 0.5;
   height: 2em;
-  overflow: auto;
 }
 
 .attribution .cc {
   flex-shrink: 1;
   text-decoration: none;
-  overflow: auto;
-  
-  
 }
 
 footer {
@@ -62,7 +53,6 @@ footer {
   text-align: center;
   font-style: italic;
   line-height: 1.5em;
-  overflow: auto;
 }
 
 
@@ -95,7 +85,6 @@ footer {
   right:0;
   bottom:0;
   background-color:#00000099;
-  overflow: auto;
 }
 
 
